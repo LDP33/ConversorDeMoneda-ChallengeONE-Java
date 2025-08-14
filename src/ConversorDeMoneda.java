@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ConversorDeMoneda {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
-        ConsultaMoneda consulta = new ConsultaMoneda();
+        ConsultaMonedaApi consulta = new ConsultaMonedaApi();
 
         int opcion = 0;
         while (opcion != 7) {
@@ -34,4 +34,5 @@ public class ConversorDeMoneda {
                         System.out.println("Error al obtener las tasas de conversión.");
                         continue;
                         }
+
     }
